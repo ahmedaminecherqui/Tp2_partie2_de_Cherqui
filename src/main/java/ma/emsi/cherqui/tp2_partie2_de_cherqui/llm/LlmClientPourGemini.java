@@ -1,4 +1,4 @@
-package ma.emsi.cherqui.tp1_de_cherqui.jsf;
+package ma.emsi.cherqui.tp2_partie2_de_cherqui.llm;
 
 import jakarta.enterprise.context.Dependent;
 import jakarta.ws.rs.client.*;

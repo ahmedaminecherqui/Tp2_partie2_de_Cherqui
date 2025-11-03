@@ -1,4 +1,4 @@
-package ma.emsi.cherqui.tp1_de_cherqui.jsf;
+package ma.emsi.cherqui.tp2_partie2_de_cherqui.jsf;
 
 import jakarta.faces.application.FacesMessage;
 import jakarta.faces.context.FacesContext;
@@ -6,6 +6,9 @@ import jakarta.faces.model.SelectItem;
 import jakarta.faces.view.ViewScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
+import ma.emsi.cherqui.tp2_partie2_de_cherqui.exception.RequeteException;
+import ma.emsi.cherqui.tp2_partie2_de_cherqui.llm.JsonUtilPourGemini;
+import ma.emsi.cherqui.tp2_partie2_de_cherqui.llm.LlmInteraction;
 
 import java.io.Serializable;
 import java.util.ArrayList;
