@@ -43,7 +43,7 @@ public class LlmClientPourGemini implements Serializable {
         // 2. Crée le modèle de chat Gemini
         this.chatModel = GoogleAiGeminiChatModel.builder()
                 .apiKey(apiKey)
-                .modelName("gemini-2.0-flash-latest")
+                .modelName("gemini-2.5-flash")
                 .temperature(0.7)
                 .timeout(Duration.ofSeconds(60))
                 .build();

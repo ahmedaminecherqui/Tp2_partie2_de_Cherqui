@@ -54,6 +54,10 @@ public class Bb implements Serializable {
         return reponse;
     }
 
+    public void setReponse(String reponse) {
+        this.reponse = reponse;
+    }
+
     public String getConversation() {
         return conversation.toString();
     }
